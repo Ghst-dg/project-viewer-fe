@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+header{
+  width: 100%;
+  height: 10vh;
+  border-bottom: 5px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+main{
+  width: 100%;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.SearchBox{
+  width: 40%;
+  height: 70%;
+  border: 5px solid black;
+  border-radius: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.SearchInput{
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 100%;
+  font-size: 36px;
+  text-align: center;
+  border-radius: 250px;
+}
+
+.SearchBtn{
+  outline: none;
+  border: none;
+  width: 10%;
+  height: 100%;
+  font-size: 36px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: inherit;
+}
+
+.Card{
+  height: 375px;
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  cursor: pointer;
+  border: 5px solid #000000;
+  margin: 1%;
+  display: inline-block;
+}
+
+.CardTitle{
+  width: 100%;
+  height: 16%;
+  text-align: center;
+  font-size: 28px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.CardSub{
+  width: 100%;
+  height: 16%;
+  display: inline-flex;
+}
+
+.CardSubTitle{
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.CardSubValue{
+  width: 65%;
+  height: 100%;
+  text-align: center;
+  font-size: 9px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.Model{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ModelBox{
+  background-color: #ffffff;
+  border-radius: 32px;
+  border: 5px solid #000000;
+  width: 75%;
+  height: 75%;
+}
+
+.ModelTitle{
+  width: 100%;
+  height: 16%;
+  text-align: center;
+  font-size: 56px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.ModelSub{
+  width: 100%;
+  height: 16%;
+  display: inline-flex;
+}
+
+.ModelSubTitle{
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.ModelSubValue{
+  width: 65%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
